@@ -30,6 +30,7 @@ from airflow_breeze.utils.path_utils import AIRFLOW_SOURCES_ROOT, DEPENDENCIES_J
 
 RUNS_ON_PUBLIC_RUNNER = "ubuntu-22.04"
 RUNS_ON_SELF_HOSTED_RUNNER = "self-hosted"
+SELF_HOSTED_RUNNERS_CPU_COUNT = 8
 
 ANSWER = ""
 
@@ -236,6 +237,7 @@ COMMITTERS = [
     "mistercrunch",
     "msumit",
     "o-nikolas",
+    "pankajastro",
     "pierrejeambrun",
     "pingzh",
     "potiuk",
